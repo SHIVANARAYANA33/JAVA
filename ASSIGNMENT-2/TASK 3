@@ -1,6 +1,8 @@
+
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+
 class Student {
     private final String regNo;
     private final String name;
@@ -9,13 +11,16 @@ class Student {
         this.regNo = regNo;
         this.name = name;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Student)) return false;
+
         Student student = (Student) o;
         return regNo.equals(student.regNo);
     }
+
     @Override
     public int hashCode() {
         return Objects.hash(regNo);
@@ -27,9 +32,10 @@ class Student {
     }
 }
 
-public class Attendance {
+public class Main {
     public static void main(String[] args) {
         Set<Student> present = new HashSet<>();
+
         present.add(new Student("192311001", "Arun"));
         present.add(new Student("192311002", "Divya"));
         present.add(new Student("192311001", "Arun"));
