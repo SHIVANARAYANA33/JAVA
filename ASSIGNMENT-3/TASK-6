@@ -1,4 +1,4 @@
-public class Q6_DeadlockAndTokenCounter {
+public class DeadlockAndTokenCounter {
 
     static class Wallet {
         private final int id;
