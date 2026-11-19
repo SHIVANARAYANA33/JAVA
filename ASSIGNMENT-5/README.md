@@ -1,12 +1,3 @@
-# Assignment 5 – CO5: Data Persistence Engineering (Files and Databases)
-
-**Student Name:** Moksha Dude (dudemoksha)  
-**Register Number:** 192372374  
-**Course:** Programming in Java (CSA09)  
-**Course Outcome:** CO5  
-**Java Version:** OpenJDK 17.0.21.0.2 LTS  
-
----
 
 ## 📌 Overview
 This assignment evaluates architectural design and practical implementation decisions in Java data persistence. It contrasts text files, binary streams, object serialization, and relational databases using JDBC. Focus areas include stream buffering, DAO patterns, object-graph serialization, SQL injection defense, batch loading, transaction atomicity (`commit`/`rollback`), and enterprise migration.
